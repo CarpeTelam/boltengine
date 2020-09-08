@@ -4,7 +4,7 @@
 
 package bolt
 
-import log "github.com/Sirupsen/logrus"
+import log "github.com/sirupsen/logrus"
 import "github.com/TeamFairmont/boltshared/config"
 
 func addSysLogHook(cfg *config.Config) {

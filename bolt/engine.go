@@ -18,9 +18,9 @@ import (
 
 	"gopkg.in/go-redis/cache.v1"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/TeamFairmont/amqp"
 	"github.com/TeamFairmont/gabs"
+	"github.com/sirupsen/logrus"
 
 	"github.com/TeamFairmont/boltengine/bolterror"
 	"github.com/TeamFairmont/boltengine/commandprocess"

@@ -12,8 +12,8 @@ import (
 	"gopkg.in/redis.v3"
 	"gopkg.in/vmihailenco/msgpack.v2"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/TeamFairmont/boltengine/commandprocess"
+	"github.com/sirupsen/logrus"
 )
 
 // SetupCache uses the current config to connect and setup a cache system
