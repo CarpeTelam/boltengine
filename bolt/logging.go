@@ -5,11 +5,8 @@
 package bolt
 
 import (
-	//"log/syslog"
-
-	log "github.com/Sirupsen/logrus"
-	//"github.com/Sirupsen/logrus/hooks/syslog"
 	"github.com/rifflock/lfshook"
+	log "github.com/sirupsen/logrus"
 	"github.com/weekface/mgorus"
 )
 
@@ -46,7 +43,7 @@ func (engine *Engine) CreateLogger() {
 			log.ErrorLevel: cfg.Logging.FsErrorPath,
 			log.FatalLevel: cfg.Logging.FsFatalPath,
 			log.PanicLevel: cfg.Logging.FsPanicPath,
-		}))
+		}, &log.JSONFormatter{}))
 
 	case "syslog":
 		//func to work around no windows syslog stubs in golang
