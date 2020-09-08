@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/TeamFairmont/boltengine/bolterror"
-	"github.com/TeamFairmont/boltengine/commandprocess"
+	"github.com/CarpeTelam/boltengine/bolterror"
+	"github.com/CarpeTelam/boltengine/commandprocess"
 	"github.com/gorilla/mux"
 	"github.com/sirupsen/logrus"
 )

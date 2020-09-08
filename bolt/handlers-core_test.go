@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/TeamFairmont/boltengine/requestmanager"
+	"github.com/CarpeTelam/boltengine/requestmanager"
 	"github.com/stretchr/testify/assert"
 )
 

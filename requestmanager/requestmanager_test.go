@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/TeamFairmont/boltengine/commandprocess"
+	"github.com/CarpeTelam/boltengine/commandprocess"
 	"github.com/TeamFairmont/gabs"
 	"github.com/stretchr/testify/assert"
 )

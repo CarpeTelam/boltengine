@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/TeamFairmont/boltengine/throttling"
+	"github.com/CarpeTelam/boltengine/throttling"
 	"github.com/TeamFairmont/boltshared/config"
 	"github.com/TeamFairmont/boltshared/security"
 	"github.com/TeamFairmont/boltshared/utils"

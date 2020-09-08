@@ -1,4 +1,4 @@
-module github.com/TeamFairmont/boltengine
+module github.com/CarpeTelam/boltengine
 
 go 1.14
 
